@@ -1,0 +1,12 @@
+name: "pruebaweeb"
+title: "prueba para trabajo practico;"
+description: |
+  &quot;prueba&quot;
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Presentacion"
+      href: index.html
+    - text: "Somos lo que hacemos"
+      href: about.html
+output: distill::distill_article
